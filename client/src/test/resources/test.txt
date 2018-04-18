@@ -1,0 +1,316 @@
+Create Sprint	Print issues
+MOM-425No duplicate cards should be ordered
+None
+
+MOM-462Move the stop and activate CardSelfService capability to Wildfly
+None
+Assignee: Pieter Van Onselen5
+MOM-464Create a Money Management FileInput Service on Wildfly
+None
+5
+MOM-466Create a Money Management FileOutput Service on Wildfly
+None
+5
+MOM-465Create a Money Management FileStore Service on Wildfly
+None
+5
+MOM-518Create a Money Management DocumentStore Service on Wildfly
+None
+
+MOM-531CCI Issues
+None
+Assignee: Pieter Van Onselen
+MOM-533Card Activation SMS not functioning
+None
+Assignee: Pieter Van Onselen
+MOM-493When ordering multiple cards, add FICA instruction codes when creating the cardholder record
+None
+
+MOM-492When ordering an additional card, add FICA instruction code when creating the cardholder record
+None
+
+MOM-491For a replacement card, add FICA instruction code when creating the cardholder record
+None
+
+MOM-490For a first time single card, add FICA instruction code when creating the cardholder record
+None
+
+MOM-430Cardholder view of transaction history should only contain transactions for that card
+None
+
+MOM-313Develop BPM process for incidents
+None
+
+MOM-398SMS to customer after successfully unblocking card
+None
+
+MOM-323Audit trail for all actions performed by service agents
+None
+
+MOM-363Get updates from CDI on Health / HealthSaver cancellations and changes
+None
+
+MOM-360Update surname of account holder
+None
+
+MOM-141SMS confirmation that we received your application
+Notifications
+None
+MOM-301Cancel application before card activation
+None
+
+MOM-322SMS to customer if trying to activate already active card
+None
+
+MOM-351Add reason code for stopping card
+None
+
+MOM-147SMS after reversed transaction
+Notifications
+None
+MOM-426Add required FICA docs and activation instructions to T&Cs email
+None
+
+MOM-483SMS notification to customer when FICA compliant and already active
+None
+
+MOM-359Update residential address of account holder
+None
+
+MOM-387As a call centre agent, I want to upload multiple documents for proof of residence
+None
+
+MOM-357Display HealthSaver balance to service agents
+None
+
+MOM-422As a call center agent I would like to have more messages/hints/tips visible on my screen to help me to service my client
+None
+
+MOM-423As a call center agent I want to be able to confirm to the client that T & C's apply to additional card holders
+None
+
+MOM-414Create BPM / CCF activities for logging event audit trail
+None
+
+MOM-413When onboarding one card always stored as MAIN_MEMBER in Traderoot
+None
+
+MOM-159Apply for Multiply Money without SA ID number
+None
+
+MOM-258Set up TST environment
+None
+Assignee: Frans Flippo
+MOM-332Cancel account and not charge monthly fees
+None
+
+MOM-337SMS confirmation to customer after successfully updating personal information
+None
+
+MOM-315Develop BPM process for disputes
+None
+
+MOM-355Unstop card in allowed instances
+None
+
+MOM-353View all SMS notifications sent to the customer
+None
+
+MOM-316Develop BPM process for complaints
+None
+
+MOM-362Update cellphone number of cardholder
+None
+
+MOM-146SMS on insufficient funds
+Notifications
+None
+MOM-288Call center agent updates reason for card stopped by SMS
+None
+
+MOM-364Add customer SMS notification after successfully processing a refund
+None
+
+MOM-370Enable the call centre to save and resume a customers' application
+None
+
+MOM-371Allow customer to stop a card via the IVR
+None
+
+MOM-372Allow customer to activate a card via IVR
+None
+
+MOM-376Enable service agent to resend any SMS notification previously sent to the customer
+None
+
+MOM-386As a financial clerk, I want to capture ad hoc fees
+None
+
+MOM-273Log UpdateMember calls to DB2 and not just AddMember
+None
+
+MOM-151User can apply for Money Mangement if no Multiply policy
+Onboarding Assignee: Pieter Van Onselen
+None
+MOM-246Card Holder Information: The main member check box is displayed on the second row if the main member is a female.
+Onboarding
+None
+MOM-314Develop BPM process for activate and stop card SMS failures
+None
+
+MOM-309Add merchants to included and excluded lists in Traderoot
+None
+
+MOM-269Alert support when card activation succeeds but card linking fails
+None
+
+MOM-233Show new screen when successfully created account
+Onboarding
+None
+MOM-225Show information icon at cellphone number for account holder and dependants
+Onboarding
+None
+MOM-224Show information icon with Residential address will be used
+Onboarding
+None
+MOM-140SMS that the card is linked and there is an active HealthSaver
+Notifications
+None
+MOM-136As a client I want cancel a single card
+Servicing
+None
+MOM-149SMS on transaction dispute
+Notifications
+None
+MOM-138Entity add party admin screen (CDI)
+Onboarding
+None
+MOM-247Show nice screen when session expires
+None
+
+MOM-277Handling of more than one CDI footprint
+1.0-sprint-4
+None
+MOM-339Create Notification Activities for CCF activity Viewer
+None
+Assignee: Thokozane Buthelezi
+MOM-343Add info on medical claims in successful transaction SMS notification
+None
+
+MOM-345As a product owner, I want to update the T&C's that are emailed to the customer after a successful application
+None
+
+MOM-358Generate monthly account statement
+None
+
+MOM-365Post login capability for customers to stop their cards
+None
+
+MOM-368Confirm customer fraud score when onboarding a new member
+None
+
+MOM-373Allow customer to request HealthSaver balance via IVR
+None
+
+MOM-374Enable service agent to send HealthSaver statement to customer via email
+None
+
+MOM-375Allow customer to request HealthSaver statement via IVR and receive via email
+None
+
+MOM-242Card delivery tracking in Card Management (CCD)
+None
+
+MOM-243Card delivery appointment rescheduling in Card Management (CCD)
+None
+
+MOM-354Card re-issue after expiry date
+None
+
+MOM-397As a business owner, I want access to all reports via a website (with authorisation)
+None
+
+MOM-406As a customer, I want to do a balance enquiry via USSD or SMS
+None
+
+MOM-427As an account holder, I want to activate all cards on my account with a single SMS
+None
+
+MOM-429Fica Screen - Invalidate Capability does not work ,the message "An unexpected error occurred" is presented
+None
+
+MOM-439Remove space between Visa and (R) in Ts&Cs email
+None
+
+MOM-440Correct the content in the Card Blocked SMS Notification to make pin all caps i.e PIN
+Notifications
+None
+MOM-446Send SMS notification to customer on received FICA docs
+None
+
+MOM-447Change Full FICA status in BPM process to MM FICA status
+None
+
+MOM-481Create Multiply Money Transactional Account for a foreign customer
+MVP2
+None
+MOM-480Create Multiply Money Savings Account for a foreign customer
+MVP2
+None
+MOM-470As a customer I want to query my MMSA and MMTA balances
+MVP2
+None
+MOM-471As a customer I want to update my account details (MMTA and MMSA)
+MVP2
+None
+MOM-472As a customer I don't want to be charged any fees once my accounts have been deleted (MMTA and MMSA)
+MVP2
+None
+MOM-473As a customer I want to be able to FICA myself electronically
+MVP2
+None
+MOM-475As a customer I want to select where my Cashbacks should go
+MVP2
+None
+MOM-476As a customer I want to receive a notification if I am no longer FICA compliant
+MVP2
+None
+MOM-477As a customer, I want to move to a different Health policy and keep my Visa Card
+None
+
+MOM-478As a customer, I want to reinstate my cancelled Health policy and use my current Visa Card
+None
+
+MOM-484As a customer, I want a notification to my old and new cellphone number if I update a number
+None
+
+MOM-486GFS requires a full audit trail of all transactions initiated for the MMI BIN (successful or unsuccessful)
+None
+
+MOM-516Member management session issue
+None
+
+MOM-520BPM process for general customer enquiries via call centre
+None
+
+MOM-521BPM process for card services via call centre
+None
+
+MOM-522BPM QA process for client interactions via call centre
+None
+
+MOM-523BPM process for PIN blocked cards
+None
+
+MOM-526The Title field should be editable
+None
+
+MOM-527As a customer, I want to receive a reference number when I stop my card, which I have to provide if I want to unstop my card
+None
+
+MOM-528As a customer, I want to receive an SMS when my account, card or FICA status changes
+None
+
+MOM-529Retrieve SMS history for bulk SMS
+None
+

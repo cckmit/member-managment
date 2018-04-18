@@ -1,0 +1,154 @@
+{
+  "members": [
+    {
+      "clientNumber": 2014093679601,
+      "title": "MNR",
+      "initials": "F",
+      "names": [
+        "FRANS",
+        ""
+      ],
+      "surname": "DE SWARDT",
+      "idNumber": "8101305033084",
+      "dateOfBirth": 349653600000,
+      "passportNumber": "",
+      "gender": "male",
+      "locale": "und",
+      "contactDetails": {
+        "contactNumbers": {
+          "cell_phone": "0826742852"
+        },
+        "emailAddresses": {
+          "work": "frans.lisa@webmail.co.za"
+        },
+        "addresses": {
+          "postal": {
+            "lines": [
+              "24 LION STREET",
+              "BRACKENHURST"
+            ],
+            "code": "1448"
+          }
+        },
+        "preferredCorrespondence": ""
+      },
+      "dependantPolicySequence": 0,
+      "memberNumber": 0,
+      "role": {
+        "type": "POLHOLD"
+      },
+      "premium": 0.00,
+      "firstName": "FRANS",
+      "age": 36
+    },
+    {
+      "clientNumber": 2014093679808,
+      "title": "MRS",
+      "initials": "L",
+      "names": [
+        "LISA",
+        ""
+      ],
+      "surname": "DE SWARDT",
+      "idNumber": "8203221274188",
+      "dateOfBirth": 385596000000,
+      "passportNumber": "",
+      "gender": "female",
+      "locale": "und",
+      "contactDetails": {
+        "contactNumbers": {},
+        "emailAddresses": {},
+        "addresses": {},
+        "preferredCorrespondence": ""
+      },
+      "dependantPolicySequence": 0,
+      "memberNumber": 0,
+      "role": {
+        "type": "PARTNER"
+      },
+      "premium": 0.00,
+      "firstName": "LISA",
+      "age": 34
+    },
+    {
+      "clientNumber": 5273455400003,
+      "title": "MR",
+      "initials": "",
+      "names": [
+        "LIAM",
+        ""
+      ],
+      "surname": "",
+      "idNumber": "1002235505083",
+      "dateOfBirth": 1266876000000,
+      "passportNumber": "",
+      "gender": "male",
+      "locale": "und",
+      "contactDetails": {
+        "contactNumbers": {},
+        "emailAddresses": {},
+        "addresses": {},
+        "preferredCorrespondence": ""
+      },
+      "dependantPolicySequence": 0,
+      "memberNumber": 0,
+      "role": {
+        "type": "CHILD"
+      },
+      "premium": 0.00,
+      "firstName": "LIAM",
+      "age": 6
+    },
+    {
+      "clientNumber": 5273455400004,
+      "title": "MR",
+      "initials": "",
+      "names": [
+        "STEFF",
+        ""
+      ],
+      "surname": "",
+      "idNumber": "1401095164082",
+      "dateOfBirth": 1389218400000,
+      "passportNumber": "",
+      "gender": "male",
+      "locale": "und",
+      "contactDetails": {
+        "contactNumbers": {},
+        "emailAddresses": {},
+        "addresses": {},
+        "preferredCorrespondence": ""
+      },
+      "dependantPolicySequence": 0,
+      "memberNumber": 0,
+      "role": {
+        "type": "CHILD"
+      },
+      "premium": 0.00,
+      "firstName": "STEFF",
+      "age": 3
+    }
+  ],
+  "policyNumber": {
+    "productCode": "MB",
+    "number": 527345540
+  },
+  "plan": {
+    "planType": {
+      "type": "STARTER",
+      "description": "Multiply Starter"
+    },
+    "tier": "STARTER",
+    "benefitPayors": [
+      {
+        "benefitCode": "BAS",
+        "benefitStatus": "08",
+        "benefitBalance": 0.00
+      }
+    ]
+  },
+  "inceptionDate": 1417384800000,
+  "status": "10INFPPAY",
+  "applicationDate": 1417816800000,
+  "preferedPolicy": false
+}

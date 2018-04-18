@@ -1,0 +1,72 @@
+{
+  "title": "MR",
+  "initials": "J",
+  "name": "JOHN",
+  "surname": "ENGLISH",
+  "identificationDocument": {
+    "type": "NATIONAL_ID",
+    "idNumber": "7102035875985",
+    "countryIssued": "RSA",
+    "issueDate": "2017-01-30T19:22:42.666Z",
+    "expirationDate": "2017-01-30T19:22:42.666Z"
+  },
+  "dateOfBirth": "2017-01-30T19:22:42.666Z",
+  "language": "ENGLISH",
+  "legalStatus": "NOT_APPLICABLE",
+  "gender": "MALE",
+  "physicalAddress": {
+    "line1": "PAFURI 122",
+    "line2": "",
+    "suburb": "SINOVILLE",
+    "city": "PRETORIA",
+    "region": "GAUTENG",
+    "country": "SOUTH AFRICA",
+    "postalCode": "0182"
+  },
+  "postalAddress": {
+    "line1": "",
+    "line2": "",
+    "suburb": "",
+    "city": "",
+    "region": "",
+    "country": "",
+    "postalCode": ""
+  },
+  "email": "",
+  "homePhoneNumber": "",
+  "workPhoneNumber": "",
+  "mobilePhoneNumber": "0828172872",
+  "preferredNotificationMethod": "SMS",
+  "customerAccount": {
+    "accountReference": "123298278",
+    "accountAlias": "HEALTH",
+    "brokerCode": "",
+    "issuingProductCode": "",
+    "facilityDate": "2017-01-30T19:22:42.666Z",
+    "cardholders": [
+      {
+        "cardNumber": "",
+        "cardReference": "",
+        "title": "MR",
+        "initials":"J",
+        "name": "JJ",
+        "surname": "ENGLISH",
+        "identificationDocument": {
+          "type": "NATIONAL_ID",
+          "idNumber": "7102035875985",
+          "countryIssued": "RSA",
+          "issueDate": "2017-01-30T19:22:42.666Z",
+          "expirationDate": "2017-01-30T19:22:42.666Z"
+        },
+        "dateOfBirth": "2017-01-30T19:22:42.666Z",
+        "language": "ENGLISH",
+        "legalStatus": "NOT_APPLICABLE",
+        "gender": "MALE",
+        "mobilePhoneNumber": "0821782782",
+        "email": "",
+        "relationshipCode": "01"
+      }
+    ]
+  }
+
+}

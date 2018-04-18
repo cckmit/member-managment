@@ -1,0 +1,3 @@
+---
+- src: http://git-ces.mmih.biz/ansible-roles/vault.git
+  scm: git

@@ -1,0 +1,13 @@
+---
+- hosts: app-servers
+  become: true
+  tasks:
+  - name: Remove container
+    docker:
+      name: money-services
+      image: ces-docker.dkrreg.mmih.biz/multiply-money-services
+      state: absent
+  - name: pull docker/wildfly image
+    command: sudo docker pull ces-docker.dkrreg.mmih.biz/multiply-money-services:2.1-SNAPSHOT
+  - name: Create container and expose port 8081
+    command: sudo docker run -d --name money-services -v /etc/localtime:/etc/localtime --dns 10.1.24.50 -p 8444:8444 -p 8081:8081 -p 9991:9991 -e MMI_ENV={{mmi_env}} ces-docker.dkrreg.mmih.biz/multiply-money-services:2.1-SNAPSHOT

@@ -1,0 +1,10 @@
+[web-servers]
+cesngxprd101.metmom.mmih.biz externalip=10.25.0.167 internalip=10.25.0.164
+cesngxprd102.metmom.mmih.biz externalip=10.25.1.103 internalip=10.25.1.101
+
+[app-servers]
+cesappprd201.metmom.mmih.biz grp=blue
+cesappprd202.metmom.mmih.biz grp=green
+
+[was-servers]
+multiplyws.multiply.co.za

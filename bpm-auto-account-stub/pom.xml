@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>money</artifactId>
+        <groupId>com.mmiholdings.service.money.member-management</groupId>
+        <version>2.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>bpm-auto-account-stub</artifactId>
+    <packaging>jar</packaging>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <jaxws.wsdl.file1>${project.basedir}/src/main/resources/META-INF/wsdl/ExceptionsProcessService.wsdl</jaxws.wsdl.file1>
+        <jaxws.wsdl.url1>https://cesbpmtst.metmom.mmih.biz/teamworks/webservices/MOMEXT2/ExceptionsProcessService.tws?WSDL</jaxws.wsdl.url1>
+        <jaxws.java.package1>com.mmiholdings.service.auto.account.bpm.stub</jaxws.java.package1>
+    </properties>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>jaxws-maven-plugin</artifactId>
+                <version>2.5</version>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>wsimport</goal>
+                        </goals>
+                        <configuration>
+                            <!--<wsdlUrls>-->
+                            <!--<wsdlUrl>${jaxws.wsdl.url1}</wsdlUrl>-->
+                            <!--</wsdlUrls>-->
+                            <wsdlFiles>
+                                <wsdlFile>
+                                    ${jaxws.wsdl.file1}
+                                </wsdlFile>
+                            </wsdlFiles>
+                            <wsdlLocation>https://cesbpmtst.metmom.mmih.biz/teamworks/webservices/MOMEXT2/ExceptionsProcessService.tws?WSDL</wsdlLocation>
+                            <xdebug>true</xdebug>
+                            <xnocompile>false</xnocompile>
+                            <packageName>${jaxws.java.package1}</packageName>
+
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

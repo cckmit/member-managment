@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.mmiholdings.service.money.member-management</groupId>
+        <artifactId>money</artifactId>
+        <version>2.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>client</artifactId>
+    <packaging>jar</packaging>
+
+    <name>Member Management Service Client</name>
+    <description>Service Client for Multiply Money Service</description>
+
+    <build>
+        <finalName>member-management-${project.artifactId}</finalName>
+    </build>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mmiholdings.library</groupId>
+            <artifactId>rest-client-lib</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.mmiholdings.service.money.member-management</groupId>
+            <artifactId>api</artifactId>
+        </dependency>
+    </dependencies>
+</project>
